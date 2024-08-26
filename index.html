@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html leng="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio Web Page</title>
+    <style>
+      body {
+        font-family: "Times New Roman", Times, serif, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#About me">About me</a></li>
+        <li><a href="#Project">Project</a></li>
+        <li><a href="#skill">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section id="About me">
+      <h2>About me</h2>
+      <h1>KHADIJA LIAQUAT</h1>
+      <p>Welcome to my personal webpage!</p>
+      <h2>About Me</h2>
+      <img
+      src="dp.jpg"
+      width="250"
+      height="200"
+    />
+      <p>I am KHADIJA LIAQUAT</p>
+      <p>I'm doing my Bachelors in Computer science from NBC.</p>
+      <p>Learning new things is my hobby</p>   
+    </section>
+    <section id="Project">
+      <h2>Project</h2>
+      <table border="1">
+        <thead>
+            <tr>
+                <th>Project Name</th>
+                <th>Description</th>
+                <th>Link</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Project 1</td>
+                <td>Blue project.</td>
+                <td><a href="https://example.com/project1" target="_blank">View Project</a></td>
+            </tr>
+            <tr>
+                <td>Project 2</td>
+                <td>Red project.</td>
+                <td><a href="https://example.com/project2" target="_blank">View Project</a></td>
+            </tr>
+            <tr>
+                <td>Project 3</td>
+                <td>white project.</td>
+                <td><a href="https://example.com/project3" target="_blank">View Project</a></td>
+            </tr>
+            
+        </tbody>
+    </table>
+    </section>
+    <section id="skill">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>C++</li>
+        <li>Github</li>
+        </ul>
+        <p>Proficiency Levels</p>
+        <ul>
+        <progress value="30" max="100">30%</progress>
+
+        <br><br>
+        <progress value="10" max="100">10%</progress>
+
+        <br><br>
+        <progress value="0" max="100">0%</progress>
+        <br><br>
+      
+        <progress value="80" max="100">80%</progress>
+        <br><br>
+        
+        <progress value="5" max="100">5%</progress>
+
+        <br><br>
+    </ul>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <form action="your-server-endpoint" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+        <br><br>
+       
+        <input type="submit" value="Send Message">
+        <br><br>
+      </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 . All rights reserved.</p>
+    </footer>
+  </body>
+</html>
